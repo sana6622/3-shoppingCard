@@ -1,0 +1,111 @@
+html {
+    font-size: 16px;
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;      
+    color: $body-color;
+    font-family: "PingFang TC";
+    font-family:"Noto Sans TC";
+  }
+
+
+  .d-none {
+    display: none;
+  }
+  
+  .d-inline {
+    display: inline;
+  }
+  
+  .d-inline-block {
+    display: inline-blockt;
+  }
+  
+  .d-block {
+    display: block;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-100{
+    flex:100%;
+  }
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .justify-content-start {
+    justify-content: flex-start;
+  }
+  
+  .justify-content-end {
+    justify-content: flex-end;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .justify-content-around {
+    justify-content: space-around;
+  }
+  
+  .align-content-start {
+    align-content: flex-start;
+  }
+  
+  .align-content-end {
+    align-content: flex-end;
+  }
+  
+  .align-content-center {
+    align-content: center;
+  }
+  
+  .align-items-start {
+    align-items: flex-start;
+  }
+  
+  .align-items-end {
+    align-items: flex-end;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  /*卷軸樣式*/
+.scrollbar {
+    padding-left: 6px;
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    //bar樣式
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }

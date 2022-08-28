@@ -1,0 +1,11 @@
+@mixin getStepNums($num) {
+    @for $i from 1 through $num {
+      &:nth-child(#{$i}) .step-circle::after {
+        content: "#{$i}";
+        position: absolute;
+        top:8px;
+        left:11px;
+      }
+    }
+  }
+  
