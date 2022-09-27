@@ -1,5 +1,6 @@
 <h1> shopping Cart</h1>
-
+page: https://sana6622.github.io/3-shoppingCard/
+<br>
 ## 已完成功能
 1.stepper：標示「寄送地址、運送方式、付款資訊」三個操作階段。
 
