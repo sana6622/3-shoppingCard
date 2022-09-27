@@ -16,6 +16,32 @@
         <div class="main">
 
             <div class="checkout">
+                <div class="step-panel" id="step-panel">
+
+                    <div class="step active">
+                      <div class="step-circle" ></div>
+                      <span class="step-des">寄送地址</span>
+                    </div>
+                
+                    <div class="step">
+                      <div class="step-circle"></div>
+                      <span class="step-des">運送方式</span>
+                    </div>                
+                    
+                    <div class="step">
+                      <div class="step-circle"></div>
+                      <span class="step-des">付款資訊</span>
+                    </div>
+                
+                    <div class="step-line1 line" ></div>
+                    <div class="step-line2  line" ></div>
+                
+                  </div>
+
+
+
+
+               <!-- 
                 <div id="step-control">
                     <div class="step-panel">
                         <div class="step active">
@@ -34,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-
+-->
 
                 <div class="part ">
                     <h3>寄送地址</h3>
@@ -140,7 +166,11 @@
             </div>
             <div class="cart">
                 <h3>購物籃</h3>
-                <div class="cart-item">
+                <ul id="cart-list">
+                
+                </ul>
+                <!--
+                <li class="cart-item" id="cart-item">
                     <img src="img/Block.jpg" alt="商品照片">
                     <div class="cart-info">
                         <div class="cart-des">
@@ -156,34 +186,17 @@
                             <span class="price">3,999</span>
                         </div>
                     </div>
-                </div>
-                <!--end of cart-item-->
-
-                <div class="cart-item">
-                    <img src="img/Block2.jpg" alt="商品照片">
-                    <div class="cart-info">
-                        <div class="cart-des">
-                            <p class="cart-name">刷色直筒年仔褲</p>
-                            <div class="cart-count ">
-                                <div class="minus"></div>
-                                <div class="number">1</div>
-                                <div class="plus"></div>
-                            </div>
-                        </div>
-                        <div class="cart-price">
-                            <span>$</span>
-                            <span class="price">1,999</span>
-                        </div>
-                    </div>
-                </div>
-                <!--end of cart-item-->
+                </li>
+                -->
+                <!--end of cart-item-->               
+              
                 <div class="fare">
                     <p>運費</p>
                     <p class="fare-price">免費</p>
                 </div>
-                <div class="total">
+                <div class="subtotal">
                     <p>小計</p>
-                    <p class="total-price">$5,298</p>
+                    <p class="subtotal-price">$5,298</p>
                 </div>
             </div>
             <!--end of cart-->
@@ -200,7 +213,7 @@
         <div class="footer"></div>
     </div>
 
-    <script src="main.js"></script>
+   
 </body>
-
+<script src="./main.js"></script>
 </html>
